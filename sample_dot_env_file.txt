@@ -1,0 +1,16 @@
+# These are environment settings compatible with OpenAI Server Access and my source code
+# rename this file to ".env" and replace the values with the values for your
+# account and environmentj
+OUT_DIR_PREFIX="/your/output/path/name/prefix"
+OUT_DIR_1_PASS="your_pass1_output_folder"
+OUT_DIR_2_PASS="your_pass2_output_folder"
+IN_DIR_PREFIX="/your/input/path/prefix/for/note/files"
+IN_NOTE_DIR="your_note_file_folder"
+OPENAI_API_KEY = "your_openai_api_key"
+MODEL_ID = "gpt-5.2"
+DEPLOYMENT_ID = "gpt-5.2"
+PRICE_PER_IN_TOKEN =  0.00000175
+PRICE_PER_OUT_TOKEN = 0.000014
+SLEEP_SECS = 5            # seconds to sleep between note extracts
+DIR_DELIMITER = "/"       # directory path delimiter for Linux/Unix/MacOS
+# DIR_DELIMITER = "\\"    # directory path delimiter for Windows
